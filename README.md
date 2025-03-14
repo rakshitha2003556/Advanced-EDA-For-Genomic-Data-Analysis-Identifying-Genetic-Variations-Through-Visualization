@@ -28,4 +28,38 @@ Encodes categorical data using OneHotEncoder
 
 Dimensionality Reduction
 
-Standa…
+Standardizes numerical features using StandardScaler
+
+Applies Principal Component Analysis (PCA) for feature reduction and visualization
+
+Uses t-SNE for non-linear dimensionality reduction
+
+Statistical Analysis
+
+t-Test: Compares two groups if applicable
+
+ANOVA: Tests for differences across multiple groups
+
+Chi-square Test: Analyzes categorical feature associations
+
+Visualization:
+
+The project generates scatter plots for PCA and t-SNE projections to visualize data structure.
+
+How to Run:
+
+Ensure the dataset is in the working directory.
+
+Run the Python script:
+
+python main.py
+
+View the output, including statistical test results and generated plots.
+
+Future Improvements:
+
+Implement more robust missing value handling strategies.
+
+Optimize PCA and t-SNE parameters for better clustering.
+
+Explore machine learning models for classification or clustering of genomic data.
